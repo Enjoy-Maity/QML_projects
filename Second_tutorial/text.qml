@@ -10,7 +10,7 @@ ApplicationWindow{
 	Text{
 		anchors.centerIn: parent
 		height : 300
-		width : 300
+		width : 800
 		text : "Hello World, This is my first encounter with the text, Thank You!"
 		color : "#000000"
 
@@ -20,6 +20,8 @@ ApplicationWindow{
 		// horizontalAlignment : Text.AlignLeft
 		horizontalAlignment : Text.AlignLeft
 		// verticalAlignment : Text.AlignVCenter
-		wrapMode : Text.Wrap			 // helps to wrap long texts
-	}
+		wrapMode : Text.Wrap			 // helps to wrap long texts but 
+							//with a fixed width based on word
+		// wrapMode : Text.WrapAnywhere		// wraps text without consideration for word
+	}	
 }
