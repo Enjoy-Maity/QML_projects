@@ -18,7 +18,7 @@ ApplicationWindow{
 		font.pixelSize : 32
 		// horizontalAlignment : Text.AlignHCenter // or AlignLeft or AlignRight
 		// horizontalAlignment : Text.AlignLeft
-		horizontalAlignment : Text.AlignHCenter
+		horizontalAlignment : Text.AlignLeft
 		// verticalAlignment : Text.AlignVCenter
 		wrapMode : Text.Wrap			 // helps to wrap long texts
 	}
